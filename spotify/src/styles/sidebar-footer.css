@@ -59,7 +59,7 @@ body{
 }
 
 .library .library_content{
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 
@@ -90,27 +90,27 @@ body{
 }
 
 .section-playlist{
-    display: flex;
+    display:flex;
     align-items: flex-start;
     justify-content: space-between;
-    gap: 20px;
+    gap:20px;
     background-color: #242424;
-    color: #b3b3b3;
+    color:#b3b3b3;
     font-weight: 600;
     font-size: 14px;
-    margin: 8px 0px;
-    padding: 16px 20px;
-    border-radius: 10px;
+    margin: 8px 0;
+    padding:16px 20px;
+    border-radius:10px;
 }
 
 .section-playlist .section-playlist_content{
-    display: flex;
+    display:flex;
     flex-direction: column;
 }
 
 .section-playlist_content .text{
-    padding-bottom: 14px;
-    color: #fff;
+    padding-bottom:14px;
+    color:#FFF;
 }
 
 .section-playlist_content .title{
@@ -125,27 +125,27 @@ body{
 .section-playlist_content .section-playlist_button{
     display: flex;
     justify-content: center;
-    background-color: #fff;
-    color: #000;
+    background-color: #FFF;
+    color:#000;
     border-radius: 20px;
     font-size: 12px;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration:none;
     text-transform: none;
-    padding: 10px;
+    padding:10px;
     margin-top: 12px;
-    border: 0px;
+    border:0;
     width: 113px;
 }
 
 .sidebar .cookies{
-    margin: 25px 20px;
+    margin:25px 20px;
 }
 
 .sidebar .cookies a{
-    color: #b3b3b3;
+    color:#b3b3b3;
     font-weight: 500;
-    font-size: 10;
+    font-size:10px;
     text-decoration: none;
 }
 
@@ -157,12 +157,13 @@ body{
     align-items: center;
     background-color: transparent;
     border: 1px solid #878787;
-    color: #fff;
-    cursor: pointer;
+    color:#FFF;
     font-weight: bold;
+    cursor:pointer;
     width: 170px;
-    margin: 8px;
-    padding: 8px;
+    margin:8px;
+    padding:8px;
+    border-radius:20px;
 }
 
 .disclaimer-premium {
