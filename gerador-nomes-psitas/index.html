@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Gerador de Nomes Psitianos</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    
+     <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+ 
+    <div class="topnav">
+      <a class="active"                         href="#gerador">Gerador</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#comunidade">Comunidade</a>
+    </div>
+    
+  </head>
+  
+  <body>
+    
+  <div>
+    <h1>Gerador de Nomes Psitianos</h1>
+    
+    <p> Encontre o nome perfeito para a sua calopsita! Clique e se surpreenda com sugestões divertidas e fofas, ideais para o novo membro da sua família. </p>
+    
+    <br><br/>
+    
+    <p> Primeiro, escolha o sexo. Caso não saiba, recomendamos um nome unissex para sua calopsita. </p>
+
+  <div class="radio-group">
+    <label>
+        <input type="radio" name="nome" value="unissex"> Unissex
+    </label>
+    <label>
+        <input type="radio" name="nome" value="femea"> Fêmea
+    </label>
+    <label>
+        <input type="radio" name="nome" value="macho"> Macho
+    </label>
+</div> 
+
+    <div class="botao">
+    <p>Clique no botão abaixo para gerar um nome para sua calopsita.</p>
+    <button onclick="gerarNome()">Gerar Nome</button>
+    <p id="nome"></p>
+  </div>
+
+    <div id="loadingScreen" class="loading-screen">
+        <div class="spinner"></div>
+        <p id="loadingText">Carregando...</p>
+    </div>
+
+   <script src="script.js"></script>    
+  </body>
+  
+</html>
